@@ -7,7 +7,7 @@ print(a[0:5])
 
 print(a[-5:-1])
 
-#        --String methods--
+#       --String methods--
 
 print(len(a)) #len()
 
@@ -15,7 +15,7 @@ print(a.upper()) #upper()
 
 print(a.lower()) #lower()
 
-b = "Keshav#,######,Harry" #rstrip()
+b = "Keshav#,######,Harry##" #rstrip()
 c = b.rstrip("#")
 
 print(c)
