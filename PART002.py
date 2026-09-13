@@ -1,4 +1,43 @@
-#          --LOOPS--
+##       --If else statements and conditional operators--
+
+a = int(input("Enter the age: "))
+
+print(a>18)
+print(a<18)
+print(a<=18)
+print(a>=18)
+print(a==18)
+
+if (a>18):
+    print("you can drive")
+    
+elif(a==18):
+    print("You have to give the test")
+    
+else:
+    print("You cannot Drive")
+
+#               --Nested Condition--
+
+a = int(input("Enter the number: "))
+
+if (a<0):
+    print("Number is negative")
+
+elif(a>0):
+    if(a<=10):
+        print("The number is between 0-10")
+
+    elif(a<=20):
+        print("The number is between 11-20")
+
+    else:
+        print("The number is greater than 20")
+
+else:
+    print("The number is zero")
+
+    #          --LOOPS--
 
 
 #          --For Loops--
@@ -109,11 +148,3 @@ while(i<11):
     print("5","x",i,"=",5*i) #Table of 5 by while loop
     
     i = i + 1
-
-     
-
-
-
-
-
-

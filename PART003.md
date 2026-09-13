@@ -27,20 +27,8 @@
 - swapcase()- To swap lower to upper and upper to lower case.
 - title()- To convert string to title.
 
-# --IF ELSE STATEMENTS--
+ 
 
-- Ye 3 hote hai ek toh "if", "elif" and "else".
-- bss ye 3 conditions me hum apni conditions rkhte hai.
 
-# --CONDITIONAL OPERATORS--
 
-- ">" Greater than.
-- "<" Less than.
-- ">=" Greater than equal to.
-- "<=" Less than equal to.
-- "==" Equal to.
-
-# --NESTED CONDITION--
-
-- Isme hum condition ke andar condition lagate hai.
-- .py file me example hai.
+    
