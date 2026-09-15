@@ -27,6 +27,23 @@
 - swapcase()- To swap lower to upper and upper to lower case.
 - title()- To convert string to title.
 
+## --SLICING--
+
+- It is like a birthday boy cuts the cake.
+- In this we cut the string according to our needs.
+- string[start : stop : step]
+- Start is the starting point from where we want to slice.
+- Stop is the last index of the string but it is not included.
+- Step is how many steps we have to skip.
+- Negative slicing means the index starts from end with -1.
+- String[::-1]--> it is the reversing the string without using loops and all.
+
+## --STRING FORMATTING--
+
+
+
+
+
  
 
 
