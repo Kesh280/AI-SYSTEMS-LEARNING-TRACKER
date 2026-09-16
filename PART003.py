@@ -1,97 +1,103 @@
-#         --Operations on Strings--
+# #         --Operations on Strings--
 
-a = "Keshav"
-print(a[3])
+# a = "Keshav"
+# print(a[3])
 
-print(a[0:5])
+# print(a[0:5])
 
-print(a[-5:-1])
+# print(a[-5:-1])
 
-#       --String methods--
+# #       --String methods--
 
-print(len(a)) #len()
+# print(len(a)) #len()
 
-print(a.upper()) #upper()
+# print(a.upper()) #upper()
 
-print(a.lower()) #lower()
+# print(a.lower()) #lower()
 
-b = "Keshav#,######,Harry##" #rstrip()
-c = b.rstrip("#")
+# b = "Keshav#,######,Harry##" #rstrip()
+# c = b.rstrip("#")
 
-print(c)
+# print(c)
 
-d = b.replace("Kesh", "Resh") #replace()
+# d = b.replace("Kesh", "Resh") #replace()
 
-print(d)
+# print(d)
 
-e = b.split(",") #split()
-print(e)
+# e = b.split(",") #split()
+# print(e)
 
-f = "introducTion to JS" #capitalize()
+# f = "introducTion to JS" #capitalize()
 
-g = f.capitalize()
+# g = f.capitalize()
 
-print(g)
+# print(g)
 
-h = f.center(25) #center()
+# h = f.center(25) #center()
 
-print(h)
+# print(h)
 
-a = "He is well trained. He is also very strong" #count()
+# a = "He is well trained. He is also very strong" #count()
 
-b = a.count("is")
+# b = a.count("is")
 
-print(b)
+# print(b)
 
-b = a.endswith("ed",0,18) #endswith()
+# b = a.endswith("ed",0,18) #endswith()
 
-print(b)
+# print(b)
 
-b = a.find("is") #find()
+# b = a.find("is") #find()
 
-print(b)
+# print(b)
 
-b = a.index("is") #index()
+# b = a.index("is") #index()
 
-print(b)
+# print(b)
 
-a = "HeiswelltrainedHeisalsoverystrong" #isalnum()
+# a = "HeiswelltrainedHeisalsoverystrong" #isalnum()
 
-b = a.isalnum()
+# b = a.isalnum()
 
-print(b)
+# print(b)
 
-b = a.isalpha() #isalpha()
+# b = a.isalpha() #isalpha()
 
-print(b)
+# print(b)
 
-b = a.islower() #islowe()
+# b = a.islower() #islowe()
 
-print(b)
+# print(b)
 
-c = a.isupper() #isupper
+# c = a.isupper() #isupper
 
-print(c)
+# print(c)
 
-d = a.isprintable() #isprintable()
+# d = a.isprintable() #isprintable()
 
-print(d)
+# print(d)
 
-e = a.isspace() #isspace()
+# e = a.isspace() #isspace()
 
-print(e)
+# print(e)
 
-f = a.istitle() #istitle()
+# f = a.istitle() #istitle()
 
-print(f)
+# print(f)
 
-g = a.swapcase() #swapcase()
+# g = a.swapcase() #swapcase()
 
-print(g)
+# print(g)
 
-h = a.title() #title()
+# h = a.title() #title()
 
-print(h)
+# print(h)
+
+
+s = {1,3,2,4,5,6,7}
+
+s.add(9)
+print(s)
 
      
 

@@ -40,12 +40,62 @@
 
 ## --STRING FORMATTING--
 
+- In this we assign the values into the the print statement.
+- There are two types of string formatting.
 
+- format()
+- print("Hello {}, aapka score {} hai!".format(naam, score))
 
+- f-string
+- print(f"Hello {naam}, aapka score {score} hai!")
 
+# --LIST--
 
- 
+- It is the mutable sequence in the big brackets[].
+- Slicing as same as string.
 
+## --METHODS--
 
+- l.append(val) #what you want to add just write in the brackets it will be added in the end of the list.
 
-    
+- l.insert(index,val) #In this we can add the vaue where we want.
+
+- l.sort() #arrange in increasing order.
+
+- l.reverse() #reverse the order.
+
+# --TUPLES--
+
+- It is the immutable sequence in the small brackets().
+- Slicing is same as list.
+
+## --METHODS--
+
+- t.index(val) #in this we write a value it gives us the index of the value. where if the value is occurs more than once then it gives us first occurence index.
+
+- t.count(val) #Count the total no. of occurences of the value.
+
+# --DICTIONARY--
+
+- In this type of sequence we have keys instead of index.
+
+- key:value 
+
+- In the slicing of the dictionary we have to get the values by using the keys.
+
+## --METHODS--
+
+- d.keys() #Return all keys. it takes no arguments in it.
+- d.values() #Return all values. it also do not takes any argument.
+- d.items() #Return (key,value) pairs. it takes no arguments in it.
+- d.get(key) #returns value acc. to key.
+- d.update(new_item) #It adds new items to dict.
+
+# --SETS--
+
+- Collection of unique elements(immutable). but the set is mutable.
+- It menas we cannot store list type elements in it.
+
+## --METHODS--
+
+- s.add(val) #adds a value
